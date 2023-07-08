@@ -413,43 +413,6 @@ theme.load_syntax = function()
         GitSignsChangeLn = { c.vscBack, c.vscYellow, 'none', nil },
         GitSignsDeleteLn = { c.vscBack, c.vscRed, 'none', nil },
 
-        -- NvimTree
-        NvimTreeRootFolder = { c.vscFront, nil, 'bold', nil },
-        NvimTreeGitDirty = { c.vscYellow, nil, 'none', nil },
-        NvimTreeGitNew = { c.vscGreen, nil, 'none', nil },
-        NvimTreeImageFile = { c.vscViolet, nil, 'none', nil },
-        NvimTreeEmptyFolderName = { c.vscGray, nil, 'none', nil },
-        NvimTreeFolderName = { c.vscFront, nil, 'none', nil },
-        NvimTreeSpecialFile = { c.vscPink, nil, 'underline', nil },
-        -- NvimTreeNormal = { c.vscFront, no_nvimtree_bg and c.vscBack or c.vscLeftDark, 'none', nil },
-        NvimTreeCursorLine = { nil, no_nvimtree_bg and c.vscCursorDarkDark or c.vscLeftMid, 'none', nil },
-        NvimTreeVertSplit = { no_nvimtree_bg and c.vscSplitDark or c.vscBack, c.vscBack, 'none', nil },
-        NvimTreeEndOfBuffer = { no_nvimtree_bg and c.vscCursorDarkDark or c.vscLeftDark, nil, 'none', nil },
-        NvimTreeOpenedFolderName = { nil, no_nvimtree_bg and c.vscCursorDarkDark or c.vscLeftDark, 'none', nil },
-
-        -- Bufferline
-        -- BufferLineIndicatorSelected = { c.vscLeftDark, nil, 'none', nil },
-        -- BufferLineFill = { nil, c.vscLeftDark, 'none', nil },
-
-        -- BarBar
-        BufferCurrent = { c.vscFront, c.vscTabCurrent, 'none', nil },
-        BufferCurrentIndex = { c.vscFront, c.vscTabCurrent, 'none', nil },
-        BufferCurrentMod = { c.vscYellowOrange, c.vscTabCurrent, 'none', nil },
-        BufferCurrentSign = { c.vscFront, c.vscTabCurrent, 'none', nil },
-        BufferCurrentTarget = { c.vscRed, c.vscTabCurrent, 'none', nil },
-        BufferVisible = { c.vscGray, c.vscTabCurrent, 'none', nil },
-        BufferVisibleIndex = { c.vscGray, c.vscTabCurrent, 'none', nil },
-        BufferVisibleMod = { c.vscYellowOrange, c.vscTabCurrent, 'none', nil },
-        BufferVisibleSign = { c.vscGray, c.vscTabCurrent, 'none', nil },
-        BufferVisibleTarget = { c.vscRed, c.vscTabCurrent, 'none', nil },
-        BufferInactive = { c.vscGray, c.vscTabOther, 'none', nil },
-        BufferInactiveIndex = { c.vscGray, c.vscTabOther, 'none', nil },
-        BufferInactiveMod = { c.vscYellowOrange, c.vscTabOther, 'none', nil },
-        BufferInactiveSign = { c.vscGray, c.vscTabOther, 'none', nil },
-        BufferInactiveTarget = { c.vscRed, c.vscTabOther, 'none', nil },
-        BufferTabpages = { c.vscFront, c.vscTabOther, 'none', nil },
-        BufferTabpagesFill = { c.vscFront, c.vscTabOther, 'none', nil },
-
         -- IndentBlankLine
         IndentBlanklineContextChar = { c.vscContextCurrent, nil, 'nocombine', nil },
         IndentBlanklineContextStart = { c.vscContextCurrent, nil, 'nocombine', nil },
